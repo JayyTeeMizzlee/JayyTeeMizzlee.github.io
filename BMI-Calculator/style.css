@@ -53,6 +53,7 @@ body {
   .gender-select label{
     display: flex;
     align-items: center;
+    gap: 8px;
   }
   
   .unit-select {
@@ -64,6 +65,7 @@ body {
   .unit-select label{
     display: flex;
     align-items: center;
+    gap: 8px;
   }
   
   button {
