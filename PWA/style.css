@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0d1117;
+    color: #e6edf3;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  canvas {
+    background-color: #1f2937;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+  
+  #menu {
+    margin-bottom: 20px;
+  }
+  
+  #content {
+    background-color: #1e1e2f;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: left;
+    max-width: 600px;
+    width: 100%;
+  }
+  
+  img {
+    display: block;
+    margin: 10px 0;
+  }
+  

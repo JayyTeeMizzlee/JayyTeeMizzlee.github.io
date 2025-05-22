@@ -1,0 +1,15 @@
+[
+    {
+      "title": "Mars",
+      "text": "Mars is the fourth planet from the Sun, known as the Red Planet. It has two moons: Phobos and Deimos.",
+      "image": "images/mars.png",
+      "audio": "audio/mars.mp3"
+    },
+    {
+      "title": "Jupiter",
+      "text": "Jupiter is the largest planet in the solar system. It has at least 79 moons, including Ganymede, the largest moon.",
+      "image": "images/jupiter.png",
+      "audio": "audio/jupiter.mp3"
+    }
+  ]
+  
