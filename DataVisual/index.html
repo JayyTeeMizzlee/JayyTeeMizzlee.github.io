@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Museum Visitors Chart by Justin M.</title>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h2>Museum Section Visitors - Visualized by Justin Mann</h2>
+
+  <canvas id="doughnutChart"></canvas>
+  <canvas id="barChart"></canvas>
+
+  <script src="charts.js"></script>
+  <script>
+    const labels = ["Ancient Art", "Modern Art", "Sculptures", "Photography", "Special Exhibits", "History Wing"];
+    const data = [250, 180, 120, 100, 90, 60];
+
+    const chartRenderer = new ChartRenderer(labels, data);
+    chartRenderer.renderDoughnut('doughnutChart', "Visitor Distribution (Doughnut Chart) - Justin M.");
+    chartRenderer.renderBar('barChart', "Museum Visitors by Section (Horizontal Bar) - Justin M.");
+  </script>
+
+</body>
+</html>
